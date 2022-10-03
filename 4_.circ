@@ -59,16 +59,13 @@
     <comp lib="0" loc="(1040,190)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="facing" val="west"/>
-      <a name="label" val="Result"/>
       <a name="output" val="true"/>
     </comp>
     <comp lib="0" loc="(140,50)" name="Pin">
-      <a name="appearance" val="classic"/>
-      <a name="facing" val="south"/>
+      <a name="appearance" val="NewPins"/>
     </comp>
-    <comp lib="0" loc="(180,50)" name="Pin">
-      <a name="appearance" val="classic"/>
-      <a name="facing" val="south"/>
+    <comp lib="0" loc="(210,40)" name="Pin">
+      <a name="appearance" val="NewPins"/>
     </comp>
     <comp lib="0" loc="(250,530)" name="Pin">
       <a name="appearance" val="classic"/>
@@ -88,8 +85,7 @@
       <a name="output" val="true"/>
     </comp>
     <comp lib="0" loc="(970,270)" name="Pin">
-      <a name="appearance" val="classic"/>
-      <a name="facing" val="north"/>
+      <a name="appearance" val="NewPins"/>
       <a name="width" val="3"/>
     </comp>
     <comp lib="1" loc="(200,390)" name="NOT Gate"/>
@@ -130,10 +126,13 @@
     <wire from="(140,410)" to="(240,410)"/>
     <wire from="(140,50)" to="(140,390)"/>
     <wire from="(180,100)" to="(280,100)"/>
-    <wire from="(180,50)" to="(180,80)"/>
+    <wire from="(180,60)" to="(180,80)"/>
+    <wire from="(180,60)" to="(220,60)"/>
     <wire from="(180,80)" to="(180,100)"/>
     <wire from="(180,80)" to="(220,80)"/>
     <wire from="(200,390)" to="(240,390)"/>
+    <wire from="(210,40)" to="(220,40)"/>
+    <wire from="(220,40)" to="(220,60)"/>
     <wire from="(250,420)" to="(250,530)"/>
     <wire from="(250,80)" to="(280,80)"/>
     <wire from="(270,400)" to="(400,400)"/>
